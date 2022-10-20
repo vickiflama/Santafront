@@ -1,0 +1,20 @@
+body {
+  background-color: #A93226; color:#F7DC6F; font-family: "Bookman Old Style"
+}
+
+#titulo {text-align: center; font-size: 300%; background-color: #FEF5E7; color: #D68910 }
+.imagenpastafrola{text-align: left; float: left; padding-right: 10px; }
+.contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "Bookman Old Style";}
+.texto1 {text-align: center; font-size: 18px; }
+.cursiva{font-style: italic;}
+.lista{font-size: 170%; text-align: center; font-family: "Bookman Old Style"; text-decoration: underline; background-color: #FEF5E7; color: #D68910}
+.lista1 {text-align: center; font-family: "Bookman Old Style"}
+.ingredientes {text-align: center; font-size: 18px}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 530px;
+  max-height: 430px;
+}
+.enlaces {color: #D68910; font-family: "Bookman Old Style"}
