@@ -1,65 +1,87 @@
+@font-face {
+  font-family: "arial";
+  src: url("../font/ARLRDBD.ttf") format("truetype");
+}
+@font-face {
+  font-family: "rock";
+  src: url("../font/rockstars.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "kalam";
+  src: url("../font/kalamregular.ttf") format("truetype");
+}
+
 body {
-  background-color: white; color: #000000 ; font-family: "Bookman Old Style";
+  background-color: white; color: #000000 ; font-family: "arial";
   background-image: url(../Imagenes/Dulce/fondo.jpg); background-repeat: no-repeat; background-attachment: fixed;
  background-size: cover;
 }
 
-.imagenpastafrola{text-align: left; float: left; padding-right: 10px; }
-.contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "Bookman Old Style";}
+.imagenpastafrola{text-align: left; float: left; padding-right: 2%; width: 25%; height: 25%;}
+.contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "kalam";}
 .texto1 {text-align: center; font-size: 18px; font-family: sans-serif;}
 .cursiva{font-style: italic;}
-.lista{font-size: 170%; text-align: center; font-family: "Bookman Old Style"; text-decoration: underline; color: #D68910}
-.lista1 {text-align: center; font-family: "Bookman Old Style"}
+.lista{font-size: 170%; text-align: center; font-family: "kalam"; text-decoration: underline; color: black;}
+.lista1 {text-align: center; font-family: "kalam"}
 .ingredientes {text-align: center; font-size: 18px; font-family: sans-serif;}
 .explicación{font-size: 18px; font-family: sans-serif;}
-img {
-  width: auto;
-  height: auto;
-  max-width: 530px;
-  max-height: 430px;
-}
 
-.iconowp{width: 50px; position: fixed; bottom: 10px; right: 15px;}
-.iconoenlaces{width: 45px; position: static; bottom: 30px; left: 15px; justify-content: space-around;}
+.iconowp{width: 5%; height: 8%; position: fixed; bottom: 2%; right: 1%;}
 
 header { display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   border: lightgrey 4px solid;
-  padding: 25px;
+  padding: 1%;
   background-color: #E9E8E7;
+  height: 75%;
 }
-.logo { width: 150px; weight: 100px;}
-.iconoenlaces {height: 40px; padding: 10px; justify-content: space-around;}
-.redsocial {background: #B2BABB; justify-content:space-around; align-self: center;}
-.titulo {text-align: center; font-size: 250%; color: black ; align-self: center; justify-content: center; font-family: cursive;}
+.logo { width: 15%; height: 15%}
+.redsocial {background: #B2BABB; justify-content:space-around; align-self: center; width: 20%; height: 20%;}
+.iconoenlaces {max-width: 15%; padding:4%; justify-content: space-around; align-items: center;}
+.titulo {text-align: center; color: black ; align-self: center; justify-content: center; font-family:"kalam";
+}
+
+a:hover{
+  color:red;
+  font-size: 150%;
+}
 a {text-decoration: none;}
 
 footer { display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   border: lightgrey 4px solid;
-  margin: 10px;
-  padding: 10px;
+  padding: 1%;
   background-color: #E9E8E7;
-  height: 200px;
+  height: 75%;
 }
-.mibarrio {height: 150px; width:300px; align-items: center; align-self: center;}
-.iconoenlaces1 {height: 40px; padding: 20px; justify-content: space-around;}
-.redsocial1 {background: #B2BABB; justify-content:space-around; align-self: center;}
+.mibarrio {height: 20%; width:30%; align-items: center; align-self: center;}
+.redsocial1 {
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2BABB;
+    margin: 1%;
+    align-items: center;
+    align-self: center;
+}
+.iconoenlaces1 {max-width: 65%; padding: 15%;justify-content: space-around; align-items: center;}
 .descripción {flex-direction: column; align-self: center; text-align: center; font-family: sans-serif;}
 .instavico {color: black;font-family: sans-serif;}
 
 nav div{display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1%;
   background-color:#FFE082;
 
   }
-.enlaces {font-family: sans-serif;
+.enlaces {font-family: "rock";
   font-weight: bolder;
   justify-content: center;
   justify-content: space-around;
@@ -70,3 +92,7 @@ nav div{display: flex;
 .enlaces3 {color: black ;}
 .enlaces4 {color: black;}
 .enlaces5 {color: black;}
+
+.titulocontactos {
+font-family: "arial";
+}
