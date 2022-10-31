@@ -4,12 +4,11 @@ body {
  background-size: cover;
 }
 
-#titulo {text-align: center; font-size: 300%; color: #D68910; background-color: #FEF5E7}
 .imagenpastafrola{text-align: left; float: left; padding-right: 10px; }
 .contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "Bookman Old Style";}
 .texto1 {text-align: center; font-size: 18px; font-family: sans-serif;}
 .cursiva{font-style: italic;}
-.lista{font-size: 170%; text-align: center; font-family: "Bookman Old Style"; text-decoration: underline; background-color: #FEF5E7; color: #D68910}
+.lista{font-size: 170%; text-align: center; font-family: "Bookman Old Style"; text-decoration: underline; color: #D68910}
 .lista1 {text-align: center; font-family: "Bookman Old Style"}
 .ingredientes {text-align: center; font-size: 18px; font-family: sans-serif;}
 .explicación{font-size: 18px; font-family: sans-serif;}
@@ -19,8 +18,55 @@ img {
   max-width: 530px;
   max-height: 430px;
 }
-.enlaces {font-family: sans-serif; text-align: right; color: #D68910; font-weight: bolder; background-position: right 50px ;
-  display: inline-table-right;
-}
+
 .iconowp{width: 50px; position: fixed; bottom: 10px; right: 15px;}
-.iconoenlaces{width: 45px; position: static; bottom: 30px; left: 15px;}
+.iconoenlaces{width: 45px; position: static; bottom: 30px; left: 15px; justify-content: space-around;}
+
+header { display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: lightgrey 4px solid;
+  padding: 25px;
+  background-color: #E9E8E7;
+}
+.logo { width: 150px; weight: 100px;}
+.iconoenlaces {height: 40px; padding: 10px; justify-content: space-around;}
+.redsocial {background: #B2BABB; justify-content:space-around; align-self: center;}
+.titulo {text-align: center; font-size: 250%; color: black ; align-self: center; justify-content: center; font-family: cursive;}
+a {text-decoration: none;}
+
+footer { display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: lightgrey 4px solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: #E9E8E7;
+  height: 200px;
+}
+.mibarrio {height: 150px; width:300px; align-items: center; align-self: center;}
+.iconoenlaces1 {height: 40px; padding: 20px; justify-content: space-around;}
+.redsocial1 {background: #B2BABB; justify-content:space-around; align-self: center;}
+.descripción {flex-direction: column; align-self: center; text-align: center; font-family: sans-serif;}
+.instavico {color: black;font-family: sans-serif;}
+
+nav div{display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:#FFE082;
+
+  }
+.enlaces {font-family: sans-serif;
+  font-weight: bolder;
+  justify-content: center;
+  justify-content: space-around;
+  align-self: center;
+}
+.enlaces1 {color: black;}
+.enlaces2 {color: black; }
+.enlaces3 {color: black ;}
+.enlaces4 {color: black;}
+.enlaces5 {color: black;}
