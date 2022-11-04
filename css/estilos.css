@@ -19,6 +19,7 @@ body {
 }
 
 .imagenpastafrola{text-align: left; float: left; padding-right: 2%; width: 25%; height: 25%;}
+.imagenpastafrola:hover{width: 40%;}
 .contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "kalam";}
 .texto1 {text-align: center; font-size: 18px; font-family: sans-serif;}
 .cursiva{font-style: italic;}
@@ -35,20 +36,43 @@ header { display: flex;
   flex-wrap: wrap;
   border: lightgrey 4px solid;
   padding: 1%;
-  background-color: #E9E8E7;
+  background-color:#FDFEFE ;
   height: 75%;
 }
-.logo { width: 15%; height: 15%}
-.redsocial {background: #B2BABB; justify-content:space-around; align-self: center; width: 20%; height: 20%;}
-.iconoenlaces {max-width: 15%; padding:4%; justify-content: space-around; align-items: center;}
-.titulo {text-align: center; color: black ; align-self: center; justify-content: center; font-family:"kalam";
+
+header:hover {
+  background-color: #E9E8E7;
 }
 
+.logo { width: 15%; height: 15%}
+
+.redsocial {background: #B2BABB;
+  justify-content:space-around;
+  align-self: center;
+  width: 20%;
+  height: 20%;}
+
+.iconoenlaces {width: 15%;
+  padding:4%;
+  justify-content: space-around;
+  align-items: center;}
+.iconoenlaces:hover {max-width: 18%;}
+
+.titulo {text-align: center;
+  color: #EC407A ;
+  align-self: center;
+  justify-content: center;
+  font-family:"kalam";
+}
+
+.titulo:hover {color:#FFFF99;
+}
 a:hover{
   color:red;
   font-size: 150%;
 }
-a {text-decoration: none;}
+
+a {text-decoration: none; color: black;}
 
 footer { display: flex;
   justify-content: center;
@@ -74,25 +98,98 @@ footer { display: flex;
 .descripción {flex-direction: column; align-self: center; text-align: center; font-family: sans-serif;}
 .instavico {color: black;font-family: sans-serif;}
 
-nav div{display: flex;
+nav div {display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1%;
   background-color:#FFE082;
-
   }
-.enlaces {font-family: "rock";
+
+.enlaces0 {font-family: "rock";
   font-weight: bolder;
   justify-content: center;
   justify-content: space-around;
   align-self: center;
 }
-.enlaces1 {color: black;}
-.enlaces2 {color: black; }
-.enlaces3 {color: black ;}
-.enlaces4 {color: black;}
-.enlaces5 {color: black;}
 
 .titulocontactos {
 font-family: "arial";
+}
+
+section {display: block;
+  flex-wrap: wrap;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mapaitalia {
+  align-self: center;
+}
+
+.imagenpastafrola1{
+  width: 60%;
+}
+.imagenpastafrola2 {
+  justify-content: center;
+  padding-left: 15%;
+  width: 75%;
+}
+
+@media (max-width: 570px) {
+  .videoyoutube {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+.mapaitalia {
+  display: none;
+}
+}
+
+@media (min-width: 700px) {
+.imagenpastafrola1 {
+  display: none;
+}
+}
+
+@media (max-width: 570px) {
+  .imagenpastafrola{
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .imagenpastafrola2{
+    display: none;
+  }
+  }
+
+@media (max-width: 570px) {
+  .enlaces0 {
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media (max-width: 570px) {
+  .mibarrio {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 570px) {
+  footer {
+    flex-direction: column;
+  }
+
 }
