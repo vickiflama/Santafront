@@ -21,14 +21,17 @@ body {
 .imagenpastafrola{text-align: left; float: left; padding-right: 2%; width: 25%; height: 25%;}
 .imagenpastafrola:hover{width: 40%;}
 .contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "kalam";}
-.texto1 {text-align: center; font-size: 18px; font-family: sans-serif;}
+.texto1 {text-align: center; font-size: 18px; font-family: "arial";}
 .cursiva{font-style: italic;}
 .lista{font-size: 170%; text-align: center; font-family: "kalam"; text-decoration: underline; color: black;}
-.lista1 {text-align: center; font-family: "kalam"}
-.ingredientes {text-align: center; font-size: 18px; font-family: sans-serif;}
-.explicación{font-size: 18px; font-family: sans-serif;}
+.lista1 {text-align: center; font-family: "kalam"; font-size: 150%;}
+.ingredientes {text-align: center; font-size: 18px; font-family: "arial";}
+.explicación{display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-family: "arial";}
 
-.iconowp{width: 5%; height: 8%; position: fixed; bottom: 2%; right: 1%;}
+.iconowp{width: 5%; position: fixed; bottom: 2%; right: 1%;}
 
 header { display: flex;
   justify-content: center;
@@ -36,27 +39,24 @@ header { display: flex;
   flex-wrap: wrap;
   border: lightgrey 4px solid;
   padding: 1%;
-  background-color:#FDFEFE ;
+  background-color:#E9E8E7;
   height: 75%;
-}
-
-header:hover {
-  background-color: #E9E8E7;
 }
 
 .logo { width: 15%; height: 15%}
 
-.redsocial {background: #B2BABB;
-  justify-content:space-around;
-  align-self: center;
-  width: 20%;
-  height: 20%;}
+.redsocial {width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2BABB;
+    margin: 1%;
+    align-items: center;
+    align-self: center;
+}
 
-.iconoenlaces {width: 15%;
-  padding:4%;
-  justify-content: space-around;
-  align-items: center;}
-.iconoenlaces:hover {max-width: 18%;}
+.iconoenlaces {max-width: 65%; padding: 15%; justify-content: space-around; align-items: center;}
+.iconoenlaces:hover {width: 18%;}
 
 .titulo {text-align: center;
   color: #EC407A ;
@@ -67,6 +67,7 @@ header:hover {
 
 .titulo:hover {color:#FFFF99;
 }
+
 a:hover{
   color:red;
   font-size: 150%;
@@ -100,7 +101,8 @@ footer { display: flex;
 
 nav div {display: flex;
   flex-wrap: wrap;
-  background-color:#FFE082;
+  background-color:#EF9A9A;
+  padding: 1vh;
   }
 
 .enlaces0 {font-family: "rock";
@@ -129,12 +131,28 @@ aside {
 }
 
 .imagenpastafrola1{
-  width: 60%;
+  justify-content: center;
+  margin: 15vw;
+  width: 70vw;
 }
 .imagenpastafrola2 {
   justify-content: center;
-  padding-left: 15%;
+  margin: 10vw;
   width: 75%;
+}
+
+.row {
+  display: flex;
+  padding: 4vh;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-around;
+}
+
+.card {
+margin-top: 2vh;
+padding: 2vh;
+  background-color: #EF9A9A;
 }
 
 @media (max-width: 570px) {
