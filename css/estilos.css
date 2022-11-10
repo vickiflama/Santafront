@@ -23,7 +23,7 @@ body {
 .contenido{text-align: center; font-size: 24px ; text-decoration: underline; font-family: "kalam";}
 .texto1 {text-align: center; font-size: 18px; font-family: "arial";}
 .cursiva{font-style: italic;}
-.lista{font-size: 170%; text-align: center; font-family: "kalam"; text-decoration: underline; color: black;}
+.lista{font-size: 170%; text-align: center; font-family: "kalam"; text-decoration: underline;}
 .lista1 {text-align: center; font-family: "kalam"; font-size: 150%;}
 .ingredientes {text-align: center; font-size: 18px; font-family: "arial";}
 .explicación{display: flex;
@@ -154,6 +154,7 @@ margin-top: 2vh;
 padding: 2vh;
   background-color: #EF9A9A;
 }
+
 
 @media (max-width: 570px) {
   .videoyoutube {
